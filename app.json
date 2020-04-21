@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "page/index/index",
+    "page/me/me",
+    "page/piaza/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "自律者打卡",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "page/index/index",
+        "iconPath": "image/index/checkIn.png",
+        "selectedIconPath": "image/index/checkInEd.png",
+        "text": "打卡"
+      },
+      {
+        "pagePath": "page/piaza/index",
+        "iconPath": "image/index/guangchang.png",
+        "selectedIconPath": "image/index/guangchangEd.png",
+        "text": "广场"
+      },
+      {
+        "pagePath": "page/me/me",
+        "iconPath": "image/index/isme.png",
+        "selectedIconPath": "image/index/ismeEd.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false,
+  "sitemapLocation": "sitemap.json"
+}

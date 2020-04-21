@@ -1,0 +1,9 @@
+<scroll-view >
+
+<form catchsubmit="formSubmit" catchreset="formReset">
+打卡页面
+
+
+</form>
+
+</scroll-view>

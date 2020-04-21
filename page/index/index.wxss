@@ -1,0 +1,16 @@
+@import "../common/index.wxss";
+.title{
+   font-size: 18px;
+   line-height: 58px;
+   text-align: center;
+   margin-top: 25px;
+}
+
+.who{
+  
+}
+
+picker{
+  color:rgb(255, 255, 255)
+}
+
